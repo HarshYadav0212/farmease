@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    max-width: 100%;
+    display: flex;
+    background-color: rgb(3, 100, 43);
+    align-items: center;
+    justify-content:space-between;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: auto 17px;
+    font-size: 20px;
+    color: white;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    margin: 10px 10px;
+}
+
+.logo{
+    margin: auto 60px;
+}
+
+.buttons{
+    margin: auto 50px;
+}
+
+body{
+    background-color: rgba(181, 211, 173, 0.866);
+}
+
+.area img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.body{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(3, 100, 43, 0.408);
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.area p{
+    color: white;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.area:hover{
+    background-color: rgba(2, 72, 31, 0.563); 
+}
+
+.middlearea{
+    width: 35%;
+    margin: auto;
+    background-color: rgba(3, 100, 43, 0.408);
+    border-radius: 20px;
+    padding: 15px 15px;
+    margin-top: 200px;
+}
+
+.middlearea p{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+input{
+    padding: 10px 3px;
+    width: 40%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(3, 100, 43);
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(3, 100, 43, 0.558);
+
+}
+
+.ans{
+    width: 35%;
+    margin: auto;
+    background-color: rgba(3, 100, 43, 0.408);
+    border-radius: 20px;
+    padding: 15px 15px;
+    color: white;  
+    font-size: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
